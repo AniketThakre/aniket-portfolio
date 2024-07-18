@@ -36,15 +36,15 @@ const Photo = () => {
             quality={100}
             fill
             alt=""
-            className="object-contain"
+            className="object-contain rounded-full"
           />
         </motion.div>
 
         {/** Circle around the image */}
         <motion.svg
-          className="w-[300px] xl:w-[506px] h-[300px] xl:h-[506px]"
+          className="w-[300px] xl:w-[503px] h-[300px] xl:h-[503px]"
           fill="transparent"
-          viewBox="0 0 506 506"
+          viewBox="0 0 510 510"
           xmlns="http://www.w3.org/2000/svg"
         >
           <motion.circle

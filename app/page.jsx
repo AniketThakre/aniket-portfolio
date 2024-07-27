@@ -12,21 +12,22 @@ const Home = () => {
         <div className="flex flex-col xl:flex-row items-center justify-between xl:pt-8 xl:pb-24">
           {/** text details with name and display details */}
           <div className="text-center xl:text-left order-2 xl:order-none">
-            <span className="text-xl">Software Engineer</span>
-            <h1 className="h1 md-6">
+            {/* <span className="text-xl">Backend Developer @ Infosys Limited</span> */}
+            <h1 className="h2 md-6">
               Hello I&apos;m <br />{" "}
-              <span className="text-accent">Aniket Thakre</span>
+              <span className="text-accent h1">Aniket Thakre</span>
             </h1>
-            <p className="max-w-[500px] mb-9 text-white/80">
-              I have excel the backend development with Spring Boot and front
-              end with react. Next.js is the beauty.
+            <p className="max-w-[670px] mb-9 text-white/80 pt-5">
+              An experienced professional with a strong background in full-stack
+              development, dedicated to building comprehensive and effective
+              solutions.
             </p>
             {/**btn and socials */}
             <div className="flex flex-col xl:flex-row items-center gap-8">
               <Button
                 varient="outline"
                 size="lg"
-                className="uppercase flex items-center gap-2 "
+                className="uppercase flex items-center gap-2"
               >
                 <span>Download CV</span>
                 <FiDownload className="text-xl" />

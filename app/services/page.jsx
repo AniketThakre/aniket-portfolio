@@ -7,21 +7,35 @@ import { BsArrowDownRight } from "react-icons/bs";
 const services = [
   {
     num: "01",
-    title: "Web Developer",
+    title: "Backend Developer",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem culpa quaerat voluptatem, est similique facere alias aliquam harum eum corrupti!",
     href: "",
   },
   {
     num: "02",
-    title: "Python Developer",
+    title: "Frontend Developer",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem culpa quaerat voluptatem, est similique facere alias aliquam harum eum corrupti!",
     href: "",
   },
   {
     num: "03",
-    title: "Java Developer",
+    title: "Full Stack Developer",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem culpa quaerat voluptatem, est similique facere alias aliquam harum eum corrupti!",
+    href: "",
+  },
+  {
+    num: "04",
+    title: "Database Developer",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem culpa quaerat voluptatem, est similique facere alias aliquam harum eum corrupti!",
+    href: "",
+  },
+  {
+    num: "05",
+    title: "Linux Administrator",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem culpa quaerat voluptatem, est similique facere alias aliquam harum eum corrupti!",
     href: "",

@@ -4,17 +4,33 @@ import {
   FaHtml5,
   FaCss3,
   FaJs,
-  FaFigma,
   FaReact,
-  FaNodeJs,
+  FaJava,
+  FaGithub,
+  FaPhp,
+  FaPython,
+  FaDocker,
+  FaAws,
+  FaJenkins,
 } from "react-icons/fa";
-import { SiTailwindcss, SiSpring, SiNodedotjs } from "react-icons/si";
+import {
+  SiTailwindcss,
+  SiSpring,
+  SiSpringboot,
+  SiSpringsecurity,
+  SiMysql,
+  SiPostgresql,
+  SiHibernate,
+  SiApachemaven,
+  SiKubernetes,
+} from "react-icons/si";
 
+import { FcLinux } from "react-icons/fc";
 /** about data */
 const about = {
   title: "About me",
   description:
-    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid modi corporis laboriosam quibusdam sapiente !",
+    "This section provides a brief overview of my professional profile and key details..!",
   info: [
     {
       fieldName: "Name",
@@ -26,23 +42,23 @@ const about = {
     },
     {
       fieldName: "Experience",
-      fieldValue: "Aniket Thakre",
+      fieldValue: "3+ years",
     },
     {
       fieldName: "MailTo",
       fieldValue: "aniket.thakre1997@gamil.com",
     },
     {
-      fieldName: "Nationality",
-      fieldValue: "Indian",
+      fieldName: "freelance",
+      fieldValue: "Available",
     },
     {
       fieldName: "LinkedIn",
-      fieldValue: "linkedin",
+      fieldValue: "aniket-thakre-b8a632165",
     },
     {
-      fieldName: "freelance",
-      fieldValue: "Available",
+      fieldName: "Nationality",
+      fieldValue: "Indian",
     },
     {
       fieldName: "Languages",
@@ -56,32 +72,31 @@ const experience = {
   icon: "",
   title: "My Experience",
   description:
-    "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias, quia!",
+    "These are my full-time employment experiences, adhering to industry standards..!",
   items: [
     {
       company: "Infosys Limited",
       position: "Technology Analyst",
-      duration: "July 2022 - Present",
+      duration: "October 2023 - Present",
     },
     {
       company: "Infosys Limited",
-      position: "Technology Analyst",
-      duration: "July 2022 - Present",
+      position: "Senior System Engineer",
+      duration: "July 2022 - October 2023",
     },
     {
       company: "Infosys Limited",
-      position: "Technology Analyst",
-      duration: "July 2022 - Present",
+      position: "System Engineer",
+      duration: "March 2021 - July 2022",
     },
   ],
 };
 
 /**Education data */
 const education = {
-  icon: "",
   title: "My Education",
   description:
-    "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias, quia!",
+    "This section highlights my formal education, tracing the journey of my learning and skill development..!",
   items: [
     {
       institution: "Nagpur University",
@@ -94,7 +109,7 @@ const education = {
       duration: "July 2013 - July 2015",
     },
     {
-      institution: "Gujrati National HighSchool",
+      institution: "GNHS, Gondia",
       course: "Seconday Education",
       duration: "June 2011 - June 2013",
     },
@@ -104,23 +119,98 @@ const education = {
 const skills = {
   title: "My Skills",
   description:
-    "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias, quia!",
+    "This section highlights the technologies I have learned and utilized throughout my work experience..!",
   skillList: [
     {
-      icon: <FaHtml5 />,
-      name: "html 5",
+      icon: <FaJava />,
+      name: "Java Core",
     },
     {
-      icon: <FaHtml5 />,
-      name: "html 5",
+      icon: <SiSpringboot />,
+      name: "Spring Boot",
     },
     {
-      icon: <FaHtml5 />,
-      name: "html 5",
+      icon: <SiSpring />,
+      name: "Spring Core",
     },
     {
+      icon: <SiSpringsecurity />,
+      name: "Spring Security",
+    },
+
+    {
+      icon: <SiHibernate />,
+      name: "Hibernate",
+    },
+    {
+      icon: <SiMysql />,
+      name: "MySQL",
+    },
+    {
+      icon: <SiPostgresql />,
+      name: "PostgreSQL",
+    },
+
+    {
+      icon: <SiApachemaven />,
+      name: "Apache Maven",
+    },
+
+    {
       icon: <FaHtml5 />,
-      name: "html 5",
+      name: "HTML5",
+    },
+    {
+      icon: <FaCss3 />,
+      name: "CSS3",
+    },
+    {
+      icon: <FaJs />,
+      name: "JavaScript",
+    },
+    {
+      icon: <FaReact />,
+      name: "React",
+    },
+
+    {
+      icon: <SiTailwindcss />,
+      name: "Tailwind CSS",
+    },
+    {
+      icon: <FaGithub />,
+      name: "Github",
+    },
+    {
+      icon: <FaPhp />,
+      name: "PHP",
+    },
+
+    {
+      icon: <FaPython />,
+      name: "Python",
+    },
+
+    {
+      icon: <FcLinux />,
+      name: "Unix/Linux",
+    },
+    {
+      icon: <FaDocker />,
+      name: "Docker",
+    },
+    {
+      icon: <SiKubernetes />,
+      name: "Kubernetes",
+    },
+    {
+      icon: <FaAws />,
+      name: "AWS",
+    },
+
+    {
+      icon: <FaJenkins />,
+      name: "Jenkins",
     },
   ],
 };

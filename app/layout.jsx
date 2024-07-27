@@ -5,12 +5,13 @@ import "./globals.css";
 import Header from "@/components/Header";
 import PageTransition from "@/components/PageTransition";
 import StairTransition from "@/components/StairTransition";
+import Head from "next/head";
 
-const jetbrainMono = JetBrains_Mono({ 
+const jetbrainMono = JetBrains_Mono({
   subsets: ["latin"],
-  weight: ["100","200","300","400","500","600","700","800"],
+  weight: ["100", "200", "300", "400", "500", "600", "700", "800"],
   variable: "--font-jetbrainsMono",
- });
+});
 
 export const metadata = {
   title: "Create Next App",
@@ -18,13 +19,16 @@ export const metadata = {
 };
 
 export default function RootLayout({ children }) {
+  const title = "Aniket's Portfolio";
   return (
     <html lang="en">
+      <Head>
+        <title>{title}</title>
+      </Head>
       <body className={jetbrainMono.variable}>
-        <Header/>
+        <Header />
         <StairTransition />
         <PageTransition>{children}</PageTransition>
-        
       </body>
     </html>
   );

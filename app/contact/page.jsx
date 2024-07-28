@@ -14,7 +14,7 @@ import {
   SelectValue,
 } from "@/components/ui/select";
 
-import { FaPhoneAlt, FaEnvelope, FaMapMarkedAlt } from "react-icons/fa";
+import { FaPhoneAlt, FaEnvelope, FaMapMarkerAlt } from "react-icons/fa";
 
 const info = [
   {
@@ -28,7 +28,7 @@ const info = [
     description: "aniket.thakre1997@gmail.com",
   },
   {
-    icon: <FaMapMarkedAlt />,
+    icon: <FaMapMarkerAlt />,
     title: "Address",
     description: "Electronic City, Bengaluru",
   },

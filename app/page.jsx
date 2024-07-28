@@ -24,14 +24,19 @@ const Home = () => {
             </p>
             {/**btn and socials */}
             <div className="flex flex-col xl:flex-row items-center gap-8">
-              <Button
-                varient="outline"
-                size="lg"
-                className="uppercase flex items-center gap-2"
+              <a
+                download
+                href="https://aniket-thakre.vercel.app/assets/resume/Aniket_Thakre_Resume.pdf"
               >
-                <span>Download CV</span>
-                <FiDownload className="text-xl" />
-              </Button>
+                <Button
+                  varient="outline"
+                  size="lg"
+                  className="uppercase flex items-center gap-2"
+                >
+                  <span>Download CV</span>
+                  <FiDownload className="text-xl" />
+                </Button>
+              </a>
               <div className="mb-8 xl:mb-0">
                 <Socials
                   containerStyles="flex gap-6"
